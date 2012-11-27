@@ -145,6 +145,9 @@ public final class R {
     public static final class dimen {
         public static final int test_dp_dimen = nextId++;
         public static final int test_dip_dimen = nextId++;
+        public static final int test_in_dimen = nextId++;
+        public static final int test_mm_dimen = nextId++;
+        public static final int test_pt_dimen = nextId++;
         public static final int test_px_dimen = nextId++;
         public static final int test_sp_dimen = nextId++;
     }
