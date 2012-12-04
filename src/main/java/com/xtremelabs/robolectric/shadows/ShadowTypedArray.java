@@ -80,7 +80,7 @@ public class ShadowTypedArray implements UsesResources {
     public java.lang.CharSequence[] getTextArray(int index) {
         ResName resName = getResName(index);
         int resourceId = values.getAttributeResourceValue(resName.namespace, resName.name, -1);
-        return resources.getTextArray(resourceId);
+        return resourceId == -1 ? null : resources.getTextArray(resourceId);
     }
 
     private ResName getResName(int index) {
